@@ -1,3 +1,4 @@
+import java.util.Scanner;
 //Shipping Cost Calculator
 // Input package weight and shipping rate
 public class Shipping_Cost_Calculator {
@@ -10,5 +11,6 @@ System.out.println("Ingresa la tarifa de envio en kilogramos: ");
 double tarifaKg = entrada.nextDouble();
 
 System.out.println("El costo total seria de: "+(pesoKg * tarifaKg)+" USD");
+entrada.close();
 }
 }
